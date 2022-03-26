@@ -52,3 +52,50 @@ make_top_word_graph(result, 300)
 
 # 대문자, 소문자 똑같이 인식
 # 원소 비어있는 경우 에러 잡기
+
+#### 다른 방법 #####
+'''
+###특수문자 제거하기###
+
+import re
+compile = re.compile("[^ ㄱ-ㅣ가-힣]+")
+for i in range(len(list_text)):
+
+    a = compile.sub("",list_text[i])
+    list_text[i] = a
+# print(list_text)
+
+###문장분석###
+
+from konlpy.tag import Okt
+okt = Okt()
+result =[]
+result = [okt.nouns(i) for i in list_text] #명사만 추출
+final_result= [r for i in result for r in i]
+print(final_result)
+
+### 불용어 제거 ###
+stop_word = ["출처","왜","그","아","잘","뭐야","헐","ㅋㅋ"] #사용하지 않을 단어 또는 문장 추가
+line = [i for i in list_text if i not in stop_word]
+
+# print(line)
+
+from konlpy.tag import Okt
+okt = Okt()
+result =[]
+result = [okt.nouns(i) for i in line] #명사만 추출
+final_result= [r for i in result for r in i]
+print(final_result)
+
+
+
+
+
+### 갯수 ###
+###텍스트에서 많이 나온 단어###
+import pandas as pd
+
+korean = pd.Series(result).value_counts().head(50)
+print("한국어 top 50")
+print(korean)
+'''
