@@ -19,11 +19,11 @@ import pandas as pd
 
 # Query by username
 # Setting variables to be used below
-maxTweets = 500
+maxTweets = 1000
 
 # Creating list to append tweet data to
 tweets_list1 = []
-scrape = sntwitter.TwitterSearchScraper('squidgame since:2021-10-01 until:2021-12-04').get_items()
+scrape = sntwitter.TwitterSearchScraper('dalgona since:2021-10-01 until:2021-12-04').get_items()
 # Using TwitterSearchScraper to scrape data
 for i,tweet in enumerate(scrape):
     print(i,tweet,tweet.lang)
@@ -39,6 +39,8 @@ tweets_df1 = pd.DataFrame(tweets_list1, columns=['Datetime', 'Tweet Id', 'Text',
 
 # Export dataframe into a CSV
 tweets_df1.to_csv('user-tweets.csv', sep=',', index=False)
-
 test= pd.read_csv('user-tweets.csv',nrows=10)
 print(test)
+
+# TypeError: Card.__init__() missing 1 required positional argument: 'title' 에러 잡기
+# 한국 트위터 데이터만 가져오기
