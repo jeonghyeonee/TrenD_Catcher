@@ -1,0 +1,524 @@
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+
+
+/*main navbar*/
+.main_first {
+    top: 80px;
+    width: 243px;
+    position: absolute;
+    height: 1120px;
+    background: #151C3A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 6px #00000029;
+    opacity: 1;
+
+}
+
+.main_first_icon {
+    margin-left: 28px;
+    margin-top: 37px;
+    height: 53px;
+
+}
+
+
+.main_profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.main_profile_icon {
+    width: 54px;
+    height: 53px;
+    background: #FF0557 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.main_profile_text {
+    margin-left: 7px;
+}
+
+.main_profile_p1 {
+    text-align: left;
+    font: normal normal bold 20px/25px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+}
+
+.main_profile_p2 {
+    text-align: left;
+    font: normal normal normal 20px/25px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+
+}
+
+/*Navigation*/
+
+.main_nav {
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.main_nav_sebu {
+    margin-top: 18px;
+    margin-left: 4px;
+    align-items: center;
+    display: flex;
+
+    margin-left: 9px;
+
+
+}
+
+
+
+.main_nav>p {
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+    opacity: 1;
+}
+
+.click_icon {
+    width: 109px;
+    margin-left: 19px;
+    height: 22px;
+    text-align: left;
+    font: normal normal bold 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FF0557;
+    opacity: 1;
+    text-decoration: none;
+}
+
+
+.main_app {
+    height: 53px;
+    margin-left: 0px;
+    margin-top: 31px;
+}
+
+.main_app>p {
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+    opacity: 1;
+}
+
+.no_click_icon {
+    width: 109px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 19px;
+}
+
+.main_nav_sebu_p {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    margin-left: 12px;
+}
+
+.sebutext {
+    width: 109px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #C0C0C0;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.sebutext2 {
+    width: 109px;
+    height: 22px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FF0557;
+    opacity: 1;
+    text-decoration: none;
+    margin-left: 22px;
+}
+
+.click_icon:hover {
+    color: #FF0557
+}
+
+.no_click_icon:hover {
+    color: #FF0557
+}
+
+.sebutext:hover {
+    color: #FF0557
+}
+
+.sebutext2:hover {
+    color: #FF0557
+}
+
+/* main content*/
+
+.main_content {
+    /* Layout Properties */
+    margin-top: 88px;
+    margin-left: 243px;
+    width: 1677px;
+    height: 1120px;
+    /* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+/*section1 : 그래프*/
+
+#section1 {
+    /* Layout Properties */
+    margin-top: 37px;
+    margin-left: 39px;
+    height: 795px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.section1_left {
+    width: 585px;
+    height: auto;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.section1_middle {
+    margin-left: 28px;
+    width: 374px;
+    height: auto;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.section1_right {
+    margin-left: 28px;
+    width: 582px;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+
+}
+
+
+/*graph box*/
+.box_l {
+    width: 585px;
+    height: 359px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.box_title {
+    width: auto;
+    height: 46px;
+    background: #151C3A 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.box_title>span {
+    margin-left: 24px;
+    text-align: left;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.box_content {
+    display: flex;
+    flex-direction: row;
+    height: 313px;
+    width: auto;
+}
+
+.box_content_inner {
+    width: 263px;
+    height: auto;
+    margin: 17px 22px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.top_drama_list {
+    height: 40px;
+    width: 263px;
+    margin-bottom: 20px;
+    text-align: left;
+    font: normal normal bold 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.top_drama_list>span>a {
+    text-decoration: none;
+    color: #151C3A;
+}
+
+.top_drama_list>span>a:hover {
+    color: #FF0557
+}
+
+
+/*best items*/
+.box_m {
+    width: 374px;
+    height: 757px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.box_content_best_items {
+    margin: 35px 21px;
+    width: 332px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.best_item {
+    width: 332px;
+    height: 71px;
+    /* UI Properties */
+    opacity: 1;
+    margin-bottom: 20px;
+
+}
+
+.best_item_text {}
+
+
+.best_num {
+    top: 198px;
+    left: 920px;
+    width: 151px;
+    height: 22px;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal bold 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+}
+
+.drama_name_category {
+    text-align: left;
+    font: normal normal bold 12px/12px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+    margin-top: 13.5px;
+    margin-right: 13px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+.best_item_box {
+    width: 323px;
+    height: 34px;
+    background: #E0E0E0 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.click_for_buy {
+    width: 113px;
+    height: 23px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E0E0E0;
+    border-radius: 7px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.click_for_buy>span {
+    /* UI Properties */
+    text-align: center;
+    text-decoration: underline;
+    font: normal normal normal 15px/20px Segoe UI;
+    letter-spacing: 0px;
+    color: #FF0557;
+    opacity: 1;
+    margin-left: 5px;
+}
+
+.box_r {
+    width: 582px;
+    height: 443px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+}
+
+.box_content_calandar{
+
+    padding: 2px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/*카테고리그래프*/
+
+.category {
+    padding: 27px 48px 0px 48px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cate {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.category_circle1 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: #DB0042 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+
+}
+
+.category_circle2 {
+    width: 150px;
+    height: 150px;
+    background: #FF0557 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px 18px 20px 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+
+}
+
+.category_circle3 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    background: #FF5E93 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal normal 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    
+}
+
+/*section2 : 배너*/
+
+#section2 {
+    margin-top: 39px;
+    margin-left: 39px;
+    width: 1597px;
+    height: auto;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.banner {
+    width: 1597px;
+    height: 136px;
+    /* UI Properties */
+    background: #151C3A 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+
+}
+
+.banner>p {
+    margin-top: 36px;
+    margin-left: 112px;
+    width: 735px;
+    height: 64px;
+    text-align: left;
+    font: normal normal normal 50px/64px NanumBarunpen;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.banner>svg {
+    top: 912px;
+    left: 1759px;
+    position: absolute;
+    margin-top: 50px;
+}

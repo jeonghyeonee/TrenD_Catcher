@@ -1,0 +1,44 @@
+* {
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boximg {
+    width: 227px;
+    height: 223px;
+    padding-top: 50px;
+
+
+}
+
+.comingsoon {
+    width: 606px;
+    height: 94px;
+}
+
+p {
+    width: 412px;
+    height: 28px;
+    font: var(--unnamed-font-style-normal) normal normal 20px/27px var(--unnamed-font-family-noto-sans);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-efefef);
+    text-align: center;
+    font: normal normal normal 20px/27px Noto Sans;
+    letter-spacing: 0px;
+    color: #EFEFEF;
+    opacity: 1;
+
+}

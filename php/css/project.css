@@ -1,0 +1,68 @@
+.db_project {
+    position: absolute;
+    top: 262px;
+    left: 436px;
+    width: 409px;
+    height: 100px;
+
+}
+
+.project_text1 {
+    text-align: left;
+    font: normal normal bold 30px/34px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+
+}
+
+
+.project_text2 {
+    text-align: left;
+    font: normal normal bold 20px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+}
+
+
+.section1_project_right {
+    margin-left: 28px;
+    width: 826px;
+    height: auto;
+    border-radius: 5px 5px 0px 0px;
+    opacity: 1;
+    background-color: transparent;
+
+}
+
+.neivy_box {
+    top: 163px;
+    left: 892px;
+    width: 826px;
+    height: 437px;
+    background: #151C3A 0% 0% no-repeat padding-box;
+    box-shadow: inset 3px 0px 6px #00000029, 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    
+}
+
+.white_box {
+    /* Layout Properties */
+    width: 786px;
+    height: 356px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    opacity: 1;
+    text-align: ceter;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}

@@ -1,0 +1,93 @@
+* {
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: '나눔스퀘어_ac';
+    height: auto;
+
+}
+
+/*네브바*/
+.upperbar {
+    display: flex;
+    width :1920px;
+    align-items: center;
+    height: 80px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.logo{
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 28px;
+    display: inline-block;
+    height: auto;
+    text-align: left;
+    opacity: 1;
+    width: 215px;
+    position: absolute;
+    
+}
+.upperbar_t1{
+    left: 28px;
+    height: 44px;
+    text-align: left;
+    font: normal normal bold 25px/33px Segoe UI;
+    letter-spacing: -0.5px;
+    color: #151C3A;
+}
+
+.upperbar_t2{
+  /* Layout Properties */
+    left: 64px;
+    width: 39px;
+    height: 44px;
+    /* UI Properties */
+    text-align: left;
+    font: italic normal bold 30px/33px Segoe UI;
+    letter-spacing: -3px;
+    color: #FF0557;
+}
+
+.upperbar_t3{
+    width: 110px;
+    height: 44px;
+    text-align: left;
+    font: normal normal bold 25px/33px Segoe UI;
+    letter-spacing: -0.5px;
+    color: #151C3A;
+}
+
+.welcome{
+    /* Layout Properties */
+    top: 30px;
+    width: auto;
+    margin-left : 305px;
+    text-align: left;
+    font: normal normal normal 18px/22px NanumSquare_ac;
+    letter-spacing: 0px;
+    color: #151C3A;
+    opacity: 1;
+}
+
+
+
+
+
+/*content*/
+
+#footer {
+    height: 1778.76px;
+    width: 100%;
+    margin: 0px;
+}
+
