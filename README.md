@@ -4,7 +4,8 @@
 Team Member: Lee Jeonghyeon, Choi Jina, Pi Yujin, Hwang Yujeong
 
 ## Summary
-https://user-images.githubusercontent.com/33801356/183568171-a091b784-2b56-41b8-9045-50f69a78feb2.mp4
+![KakaoTalk_20220522_174020878](https://user-images.githubusercontent.com/33801356/183568852-9ccc82ca-a8d6-4ccc-a584-9f77a1e751d2.gif)
+
 <br>
 <b><i>'Is it  possible to find the backward Linkage Effect through Twitter tweets, the world's largest SNS?'</i></b>   
 The final target is to analyze industrial groups and categories that are emerging due to dramas,   
