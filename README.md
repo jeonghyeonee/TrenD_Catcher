@@ -1,4 +1,4 @@
-# DB-Web_Project
+# TrenD Catcher
 
 > 2022-2 Database Practice Web Programming Team Project    
 Team Member: Lee Jeonghyeon, Choi Jina, Pi Yujin, Hwang Yujeong
@@ -19,3 +19,4 @@ recommend products that users can purchase through links, and predict the demand
 ![KakaoTalk_20220809_135908304](https://user-images.githubusercontent.com/33801356/183568478-26966ff0-f9a6-4f82-bdc5-6c611056012b.png)
 
 ## Result
+### Limitation
